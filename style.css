@@ -23,7 +23,7 @@ body{
 }
 .header ul li:hover{
     background-color:#3d3a4e;
-    border-radius: 50%;
+    border-radius:60%;
     }
 .header ul li a{
     text-decoration: none;
@@ -37,6 +37,8 @@ body{
     text-indent: 50px;
 }  
 #home{
+    letter-spacing:3px;
+    font-size:20px;
     height:700px;
     background: rgba(22, 22, 22, 0.4)url(https://wallpapercave.com/wp/wp5511292.jpg);
     background-blend-mode: darken;
