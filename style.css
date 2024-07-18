@@ -331,15 +331,26 @@ input:focus{
   background: #e4405f;
   color: #fff;
 }
-#products{
-  height:1000px;
-  background:radial-gradient(circle,gray,white);
+#merchandise{
+  height:auto;
+  background:radial-gradient(circle,#D6D6D6,#b7b7be);
+}
+.merch{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  gap:20px;
+  flex-wrap: wrap;
+  padding-top:20px;
 }
 .helmet{
-  padding-top: 20px;
-  height:200px;
   width:auto;
 }
+.para{
+  color:black;
+  width:200px;
+}
+
 
 
 
