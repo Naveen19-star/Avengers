@@ -223,28 +223,55 @@ input:focus{
   height:auto;
 }
 .avg{
-  padding:100px;
-  display:flex;
-  flex-direction:row;
-  justify-content: space-evenly;
-  gap:80px;
   flex-wrap:wrap;
+  padding:50px;
 }
-.card {
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
-  transition: 0.3s;
-  border:1px solid grey;
-  width:342px;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 limegreen;
-}
-
-.content {
-  background-color: #3d3a4e;
+.story{
   color:beige;
-  padding: 2px 16px;
+  letter-spacing:2px;
+  padding-top:70px;
+}
+.img1{
+  padding-left:100px;
+}
+.img2 {
+  box-shadow: 0 4px 8px 0 rgba(252, 251, 251, 0.2);
+  border-radius:20px;
+  transition: 0.3s;
+}
+.img2:hover {
+  box-shadow: 0 8px 16px 0 darkcyan;
+}
+.button1 {
+  height:50px;
+  align-items: start;
+  width:auto;
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.button1:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.button1:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
 }
 .wrapper {
   display: inline-flex;
