@@ -220,14 +220,14 @@ input:focus{
   }
 #movies{
   background:linear-gradient(to right bottom,black,purple);
-  height:700px;
+  height:auto;
 }
 .avg{
-  padding-top:100px;
+  padding:100px;
   display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap:10px;
+  flex-direction:row;
+  justify-content: space-evenly;
+  gap:80px;
   flex-wrap:wrap;
 }
 .card {
@@ -343,12 +343,16 @@ input:focus{
   flex-wrap: wrap;
   padding-top:20px;
 }
-.helmet{
-  width:auto;
-}
 .para{
   color:black;
   width:200px;
+}
+.img{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img:hover{
+  transition:0.4s;
+  transform: scale(1.5);
 }
 
 
