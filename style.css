@@ -244,7 +244,6 @@ input:focus{
 }
 .button1 {
   height:50px;
-  align-items: start;
   width:auto;
   padding: 17px 40px;
   border-radius: 50px;
