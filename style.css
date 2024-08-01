@@ -42,6 +42,7 @@ body{
     letter-spacing:3px;
     font-size:20px;
     height:700px;
+    width:auto;
     background: rgba(22, 22, 22, 0.4)url(https://wallpapercave.com/wp/wp5511292.jpg);
     background-blend-mode: darken;
     background-repeat: no-repeat;
@@ -50,6 +51,7 @@ body{
 }
 #about{
     height:auto;
+    width:auto;
     background:linear-gradient(to bottom left ,red,black);
     color:aliceblue;
     letter-spacing:2px;
@@ -145,11 +147,13 @@ button {
    }
 .image{
     border-radius::0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5%;
     margin-top:50px;
     box-shadow:5px 0 5px 5px black;
 }
 #contact{
     height:auto;
+    width:auto;
     padding:50px;
     background:  rgba(14, 13, 13, 0.7)url(https://images7.alphacoders.com/113/thumb-1920-1134920.jpg);
     background-blend-mode:darken;
@@ -222,6 +226,7 @@ input:focus{
 #movies{
   background:linear-gradient(to right bottom,black,purple);
   height:auto;
+  width:auto;
 }
 .avg{
   flex-wrap:wrap;
@@ -435,6 +440,7 @@ input:focus{
 }
 #merchandise{
   height:auto;
+  width:auto;
   background:radial-gradient(circle,#D6D6D6,#b7b7be);
 }
 .merch{
